@@ -1,0 +1,131 @@
+body {
+  background-color:#30404D;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+#main{
+  display: grid;
+  grid-template-rows: 49vh 30vh 20vh 49vh;
+  grid-template-columns: repeat(3, calc(99vw/3));
+  grid-gap: 0px;
+}
+
+#dropdown_container{
+  display: flex;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  min-width: 130px;
+  margin-top: 20px;
+}
+
+
+#dropdown{
+  width: 50%;
+  margin-right: 20px;
+}
+
+#period{
+  width: 50%;
+  margin-left: 20px;
+}
+
+
+.Select-value {
+  cursor: pointer;
+}
+
+.Select-control {
+  color: rgb(48,64,77) !important;
+}
+
+.Select {
+  color: #00df43 !important;
+}
+
+.Select-menu-outer {
+  background-color: rgb(48,64,77) !important;
+  border: none !important;
+}
+
+.Select div {
+  background-color: rgb(62, 101, 133) !important;
+  border: none;
+}
+
+.Select-menu-outer div:hover {
+  background-color: rgb(50, 69, 85) !important;
+  cursor: pointer;
+}
+
+.Select-value-label {
+  color: #ffffff !important;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+  border: none !important;
+  border-radius: 4px !important;
+}
+
+
+#graph1{
+  grid-area:1/1/2/4;
+}
+
+#graph2{
+  grid-area: 2/1/3/2;
+}
+
+#graph3{
+  grid-area: 2/2/3/3;
+}
+
+
+
+#graph4{
+  grid-area: 2/3/3/4;
+}
+
+#graph_ratio1{
+  grid-area: 3/1/4/2;
+}
+
+#graph_ratio2{
+  grid-area: 3/2/4/3;
+}
+
+
+#graph_ratio3{
+  grid-area: 3/3/4/4;
+}
+
+#graph5{
+  grid-area: 4/1/5/2;
+}
+
+#graph6{
+  grid-area: 4/2/5/3;
+}
+
+#graph7{
+  grid-area: 4/3/5/4;
+}
+
+.dash-graph{
+  height: 100%;
+  width: 100%;
+}
+
+
+
+
+
+@media (max-width: 991px){
+  #main{
+    display: flex;
+    flex-direction: column;
+  }
+}

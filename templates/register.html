@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}Register{% endblock %} 
+
+
+{% block content %}
+<div class="register-form" role="main" style="margin-top: 75px">
+    <h3>Register a new user.</h3>
+    <form action="{{ url_for('register') }}" method="POST">
+        {{ form.hidden_tag() }}
+        {{ wtf.form_field(form.username) }}
+        {{ wtf.form_field(form.role, label = role) }}
+        <input type="submit" value="register" class = 'button'>
+    </form>
+</div>
+{% endblock %}

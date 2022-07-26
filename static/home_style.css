@@ -1,0 +1,61 @@
+body{
+    background-color:#30404d;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: #ccd2d6;
+}
+
+.home-main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in{
+    background-color: #3e6585;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+
+.button{
+    border:none;
+    height: auto;
+    width: auto;
+    color:white;
+    background-color: #547fc3;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 18px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+
+.register-form{
+    background-color: #3e6585;
+    border-radius: 15px;
+    width: 50%;
+    padding:30px;
+    padding-bottom: 0px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}

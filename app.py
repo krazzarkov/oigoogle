@@ -38,7 +38,7 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 login = LoginManager()
 login.init_app(app)
-create_dash_app(app)
+create_dash_application(app)
 
 # add admin and normal users 
 # if the app is already running, add the users through the /register route

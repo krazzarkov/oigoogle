@@ -13,7 +13,7 @@ import os
 from wtforms import StringField, PasswordField
 # from wtforms.validators import Length, Email
 from werkzeug.security import generate_password_hash, check_password_hash
-from dash_app import create_dash_app
+from dash_application import create_dash_application
 
 # disable ssl requirement 
 os.environ['OAUTHLIB_INSECURE_TRANSPORT'] = '1'

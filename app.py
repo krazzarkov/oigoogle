@@ -23,7 +23,7 @@ base_discord_api_url = 'https://discordapp.com/api'
 client_id = r'996586581009907723' # Get from https://discordapp.com/developers/apps
 client_secret = '3m4wFqxR_QK1f_hzGGBfK9hNy5Txd0Gq'
 # change the redirect uri to where you will be deploying the app+/oauth_callback 
-redirect_uri='https://oicove.azurewebsites.net/oauth_callback'
+redirect_uri='https://oicove-46l2i.ondigitalocean.app/oauth_callback'
 scope = ['identify', 'email']
 token_url = 'https://discordapp.com/api/oauth2/token'
 authorize_url = 'https://discordapp.com/api/oauth2/authorize'
